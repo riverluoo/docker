@@ -1,0 +1,10 @@
+version : "3"
+
+services:
+  luoo-muzik:
+    container_name: luoo-muziko
+    image: registry.cn-shanghai.aliyuncs.com/loo/luo-muziko:0.0.1
+    ports:
+      - "8081:8081"
+   
+    restart: always
