@@ -7,19 +7,4 @@ services:
     ports:
       - "8081:8081"
     environment:
-      - spring.profiles.active=dev
-      - spring.datasource.url=jdbc:mysql://39.96.69.79:3307/luoo?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
-      - spring.datasource.username=root
-      - spring.datasource.password=password
-      - spring.redis.host=39.96.69.79
-      - aliyun.oss.bucketname=riverluooo
-      - aliyun.oss.endpoint=oss-cn-beijing.aliyuncs.com
-      - aliyun.oss.accessKeyId=LTAI2m60CFRnk6Nw
-      - aliyun.oss.accessKeySecret=43F1w9IsAwgYMiQJAtG768Y7Z75ozk
-      - aliyun.accessKeyId=LTAI2m60CFRnk6Nw
-      - aliyun.accessKeySecret=43F1w9IsAwgYMiQJAtG768Y7Z75ozk
-      - aliyun.domain=dysmsapi.aliyuncs.com
-      - aliyun.product=Dysmsapi
-
-   
     restart: always
